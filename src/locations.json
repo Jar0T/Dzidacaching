@@ -1,0 +1,31 @@
+{
+    "locations": [
+        {
+            "Id": 0,
+            "DzidaId": 0,
+            "Name": "Wyryłem w kamieniu artefakt zjebania dla potomnych.",
+            "Lat": 52.073981,
+            "Lng": 21.014102,
+            "Descr": "Centrum Edukacyjno-Multimedialne",
+            "Url": "https://jbzd.com.pl/obr/3570254/wyrylem-w-kamieniu-artefakt-zjebania-dla-potomnych"
+        },
+        {
+            "Id": 1,
+            "DzidaId": 0,
+            "Name": "Artefakt zjebania",
+            "Lat": 52.068262,
+            "Lng": 21.016054,
+            "Descr": "PKP Piaseczno",
+            "Url": "https://jbzd.com.pl/obr/3570976/artefakt-zjebania"
+        },
+        {
+            "Id": 2,
+            "DzidaId": 0,
+            "Name": "DZIDA IDZIE W ŚWIAT!!!",
+            "Lat": 52.067056,
+            "Lng": 21.017778,
+            "Descr": "Trzecia lokalizacja dzidy",
+            "Url": "https://jbzd.com.pl/obr/3571774/dzida-idzie-w-swiat"
+        }
+    ]
+}
