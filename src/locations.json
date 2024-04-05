@@ -26,6 +26,24 @@
             "Lng": 21.017778,
             "Descr": "Trzecia lokalizacja dzidy",
             "Url": "https://jbzd.com.pl/obr/3571774/dzida-idzie-w-swiat"
+        },
+        {
+            "Id": 3,
+            "DzidaId": 1,
+            "Name": "Łapcie kolejny #GeoKamień",
+            "Lat": 52.272316,
+            "Lng": 21.076849,
+            "Descr": "Start dzidy 1",
+            "Url": "https://jbzd.com.pl/obr/3573078/lapcie-kolejny-geokamien"
+        },
+        {
+            "Id": 4,
+            "DzidaId": 2,
+            "Name": "Komu #GeoKamień?",
+            "Lat": 52.174425,
+            "Lng": 21.196807,
+            "Descr": "Start dzidy 2",
+            "Url": "https://jbzd.com.pl/obr/3573163/komu-geokamien"
         }
     ]
 }

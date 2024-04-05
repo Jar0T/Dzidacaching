@@ -1,43 +1,34 @@
 import React from "react";
-import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
+import { MapContainer, TileLayer, Polyline } from 'react-leaflet'
+import CustomMarker from "../Marker/Marker";
+import data from '../locations.json';
 import 'leaflet/dist/leaflet.css';
-import locations from '../locations.json';
-import { Icon } from 'leaflet';
-
-const stoneIcon = new Icon({
-    iconUrl: require('../comment_stone.png'),
-    iconSize: [24, 24],
-    iconAnchor: [12, 12],
-    popupAnchor: [0, -12]
-})
 
 export default function Map() {
-  return (
-    <div>
-      <MapContainer center={[52.019, 19.392]} zoom={6} scrollWheelZoom={true}>
-        <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-        {locations.locations.map(location => (
-            <Marker
-                key={location.Id}
-                position={[location.Lat, location.Lng]}
-                icon={stoneIcon}>
-                <Popup>
-                    <h1><a href={location.Url} target="_blank" rel="noreferrer">{location.Name}</a></h1>
-                    <p>{location.Descr}</p>
-                </Popup>
-            </Marker>
-        ))}
-        <Polyline
-            positions={locations.locations.map(location => [
-            location.Lat,
-            location.Lng
-            ])}
-            color="blue"
-        />
-        </MapContainer>
-    </div>
-  );
+    const startLocation = [52.019, 19.392]    
+    const groupedLocations = Object.groupBy(data.locations, ({ DzidaId }) => DzidaId)
+
+    return (
+        <div>
+            <MapContainer center={startLocation} zoom={6} scrollWheelZoom={true}>
+                <TileLayer
+                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                {Object.values(groupedLocations).map((locations, index) => (
+                    <React.Fragment key={index}>
+                        {locations.map(location => (
+                            <CustomMarker key={location.Id} location={location} />
+                        ))}
+                        <Polyline
+                            positions={locations.map(location => (
+                                [location.Lat, location.Lng]
+                            ))}
+                            color="blue"
+                        />
+                    </React.Fragment>
+                ))}
+            </MapContainer>
+        </div>
+    );
 }
