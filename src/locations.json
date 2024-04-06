@@ -44,6 +44,15 @@
             "Lng": 21.196807,
             "Descr": "Start dzidy 2",
             "Url": "https://jbzd.com.pl/obr/3573163/komu-geokamien"
+        },
+        {
+            "Id": 5,
+            "DzidaId": 3,
+            "Name": "Śląsk dołącza do wyprawy #GeoDzida",
+            "Lat": 50.255878,
+            "Lng": 19.024254,
+            "Descr": "Skórzana dzida",
+            "Url": "https://jbzd.com.pl/obr/3573838/slask-dolacza-do-wyprawy-geodzida"
         }
     ]
 }
