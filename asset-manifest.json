@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Dzidacaching/static/css/main.31678757.css",
-    "main.js": "/Dzidacaching/static/js/main.7c36a0b6.js",
-    "static/js/453.26a4155b.chunk.js": "/Dzidacaching/static/js/453.26a4155b.chunk.js",
+    "main.css": "/Dzidacaching/static/css/main.598622be.css",
+    "main.js": "/Dzidacaching/static/js/main.f8504616.js",
+    "static/js/453.19d8e665.chunk.js": "/Dzidacaching/static/js/453.19d8e665.chunk.js",
     "index.html": "/Dzidacaching/index.html",
-    "main.31678757.css.map": "/Dzidacaching/static/css/main.31678757.css.map",
-    "main.7c36a0b6.js.map": "/Dzidacaching/static/js/main.7c36a0b6.js.map",
-    "453.26a4155b.chunk.js.map": "/Dzidacaching/static/js/453.26a4155b.chunk.js.map"
+    "main.598622be.css.map": "/Dzidacaching/static/css/main.598622be.css.map",
+    "main.f8504616.js.map": "/Dzidacaching/static/js/main.f8504616.js.map",
+    "453.19d8e665.chunk.js.map": "/Dzidacaching/static/js/453.19d8e665.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31678757.css",
-    "static/js/main.7c36a0b6.js"
+    "static/css/main.598622be.css",
+    "static/js/main.f8504616.js"
   ]
 }
