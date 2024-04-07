@@ -2,7 +2,7 @@
     "locations": [
         {
             "Id": 0,
-            "DzidaId": 0,
+            "DzidaId": "0",
             "Name": "Wyryłem w kamieniu artefakt zjebania dla potomnych.",
             "Lat": 52.073981,
             "Lng": 21.014102,
@@ -11,7 +11,7 @@
         },
         {
             "Id": 1,
-            "DzidaId": 0,
+            "DzidaId": "0",
             "Name": "Artefakt zjebania",
             "Lat": 52.068262,
             "Lng": 21.016054,
@@ -20,7 +20,7 @@
         },
         {
             "Id": 2,
-            "DzidaId": 0,
+            "DzidaId": "0",
             "Name": "Kamienna dzida wyruszyła.",
             "Lat": 51.958707,
             "Lng": 21.231497,
@@ -29,7 +29,7 @@
         },
         {
             "Id": 3,
-            "DzidaId": 1,
+            "DzidaId": "05042024-00",
             "Name": "Łapcie kolejny #GeoKamień",
             "Lat": 52.272316,
             "Lng": 21.076849,
@@ -38,7 +38,7 @@
         },
         {
             "Id": 4,
-            "DzidaId": 2,
+            "DzidaId": "05042024-01",
             "Name": "Komu #GeoKamień?",
             "Lat": 52.174425,
             "Lng": 21.196807,
@@ -47,12 +47,49 @@
         },
         {
             "Id": 5,
-            "DzidaId": 3,
+            "DzidaId": "05042024-02",
             "Name": "Śląsk dołącza do wyprawy #GeoDzida",
             "Lat": 50.255878,
             "Lng": 19.024254,
             "Descr": "Skórzana dzida",
             "Url": "https://jbzd.com.pl/obr/3573838/slask-dolacza-do-wyprawy-geodzida"
+        },
+        {
+            "Id": 6,
+            "DzidaId": "06042024-00",
+            "Name": "Kamień",
+            "Lat": 52.082084,
+            "Lng": 21.016263,
+            "Descr": "Dzida IĆ STONT",
+            "Url": "https://jbzd.com.pl/obr/3575181/kamien"
+        },
+        {
+            "Id": 7,
+            "DzidaId": "06042024-01",
+            "Name": "Serwus, lubelskie! - 1",
+            "Lat": 51.358761,
+            "Lng": 22.015508,
+            "Descr": "Pod strzałką w prawo z napisem STRZELNICA",
+            "Url": "https://jbzd.com.pl/obr/3575519/serwus-lubelskie"
+        },
+        {
+            "Id": 8,
+            "DzidaId": "06042024-02",
+            "Name": "Serwus, lubelskie! - 2",
+            "Lat": 51.587154,
+            "Lng": 21.988993,
+            "Descr": "MOP Sarny",
+            "Url": "https://jbzd.com.pl/obr/3575519/serwus-lubelskie"
+        }
+        ,
+        {
+            "Id": 9,
+            "DzidaId": "05042024-02",
+            "Name": "Ciąg dalszy zabawy",
+            "Lat": 50.280535,
+            "Lng": 18.987545,
+            "Descr": "Park Śląski, Rosarium",
+            "Url": "https://jbzd.com.pl/obr/3576390/ciag-dalszy-zabawy"
         }
     ]
 }

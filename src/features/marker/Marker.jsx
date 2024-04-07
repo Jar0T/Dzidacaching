@@ -3,7 +3,7 @@ import { Marker, Popup } from 'react-leaflet'
 
 export default function CustomMarker({location}) {
     const stoneIcon = new Icon({
-        iconUrl: require('../comment_stone.png'),
+        iconUrl: require('../../comment_stone.png'),
         iconSize: [24, 24],
         iconAnchor: [12, 12],
         popupAnchor: [0, -12]
